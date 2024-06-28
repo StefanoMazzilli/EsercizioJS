@@ -1,0 +1,28 @@
+<html>
+    <head></head>
+    <body>
+        <script>
+            let a = 1;
+            console.log(9%3);
+            while (a<=50) {
+                if ((a%3==0)&&(a%5!=0)) {
+                    //multiplo di 3 ma non di 5
+                    console.log('Fizz');
+                } else if ((a%5==0)&&(a%3!=0)) {
+                    //multiplo di 5 ma non di 3
+                    console.log('Buzz');
+                } else if ((a%3==0)&&(a%5==0)) {
+                    //multiplo sia di 3 che di 5
+                    console.log('FizzBuzz');
+                } else {
+                    //gli altri casi
+                    console.log(a);
+                }
+                a++;
+            }
+        </script>
+        <a href="Esercizio1.html">Esercizio 1</a>
+        <a href="Esercizio3.html">Esercizio 3</a>
+        <a href="Esercizio4.html">Esercizio 4</a>
+    </body>
+</html>
